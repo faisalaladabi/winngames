@@ -1,0 +1,348 @@
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Winn Games - Tutorial Instalasi</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f0f1a;
+      color: #ccc;
+    }
+
+    header {
+      padding: 20px 40px;
+      border-bottom: 1px solid #00ffff;
+      display: flex;
+      align-items: center;
+      background: #0a0a14;
+    }
+
+    header img {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    header h1 {
+      color: #bdf;
+      font-size: 24px;
+      margin: 0;
+    }
+
+    header p {
+      margin-left: 20px;
+      font-size: 14px;
+      color: #aaa;
+    }
+
+    .content {
+      text-align: center;
+      padding: 60px 20px 40px;
+    }
+
+    .content h2 {
+      font-size: 36px;
+      background: linear-gradient(to right, #5bdcff, #a97cff);
+      -webkit-background-clip: text;
+      color: transparent;
+      margin-bottom: 20px;
+    }
+
+    .content p {
+      max-width: 600px;
+      margin: 0 auto;
+      color: #aaa;
+    }
+
+    .download-wrapper {
+      background-color: #11111b;
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+      border: 1px solid #005b64;
+      border-radius: 10px;
+    }
+
+    .download-title {
+      font-size: 24px;
+      color: #00f0ff;
+      margin-bottom: 20px;
+    }
+
+    .downloads {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .card {
+      border: 1px dashed #44f0ff;
+      border-radius: 8px;
+      padding: 30px 20px;
+      width: 300px;
+      text-align: center;
+      background: #12121c;
+    }
+
+    .card h3 {
+      color: #d9a4ff;
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+
+    .card button {
+      padding: 10px 20px;
+      font-size: 14px;
+      color: white;
+      background: linear-gradient(to right, #00f0ff, #a020f0);
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+    }
+
+    .card small {
+      display: block;
+      margin-top: 10px;
+      font-size: 12px;
+      color: #888;
+    }
+
+    .note {
+      margin-top: 30px;
+      background-color: #0a2e36;
+      color: #ccc;
+      font-size: 13px;
+      padding: 10px 15px;
+      border-left: 4px solid #00f0ff;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="snow/asdf.png" alt="Logo">
+  <h1>WINN GAMES</h1>
+  <p>Premium Steam Game Installation Guides</p>
+</header>
+
+<div class="content">
+  <h2>TUTORIAL INSTALASI</h2>
+  <p>Panduan langkah demi langkah dan tutorial video untuk membantu Anda memasang dan mengaktifkan lisensi game Steam premium Anda. Dapatkan pengalaman bermain game terbaik dengan petunjuk lengkap kami.</p>
+</div>
+
+<div class="download-wrapper">
+  <div class="download-title">⬇ Download Files</div>
+  <div class="downloads">
+    <!-- Game -->
+    <div class="card">
+        
+      <h3>The Last Of Us II</h3>
+      <a href="https://drive.google.com/drive/folders/1FCD0T1ZgKt51tE5kP5JWDLXPZHnrKa0I?usp=sharing" target="_blank"><button>⬇ Download Game</button></a>
+      <small>Google Drive</small>
+    </div>
+    <!-- Tool -->
+    <div class="card">
+      <h3>Steam Tool</h3>
+      <a href="https://www.mediafire.com/file/5smbm9hqfzk3msf/steam_tool.rar/file" target="_blank"><button>⚙ Download Tool</button></a>
+      <small>Media Fire</small>
+    </div>
+  </div>
+  <div class="note">
+    <strong>Note:</strong> Lapor admin jika ada link yang error.
+  </div>
+</div>
+
+ <meta charset="UTF-8">
+  <title>Tutorial Game</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f0f1a;
+      color: #ddd;
+    }
+
+    .tutorial-section {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      padding: 40px;
+    }
+
+    .tutorial-card {
+      background-color: #12121c;
+      border: 1px solid #00e0ff;
+      border-radius: 10px;
+      width: 300px;
+      padding: 20px;
+    }
+
+    .tutorial-card h3 {
+      color: #00e0ff;
+      margin-bottom: 10px;
+    }
+
+    .tutorial-card iframe {
+      width: 100%;
+      height: 170px;
+      border-radius: 6px;
+      margin-bottom: 15px;
+    }
+
+    .tutorial-card ol, .tutorial-card ul {
+      font-size: 14px;
+      padding-left: 20px;
+    }
+
+    .tutorial-card li {
+      margin-bottom: 10px;
+    }
+
+    .tutorial-card .note {
+      background-color: #0a2e36;
+      padding: 10px;
+      border-left: 4px solid #00e0ff;
+      margin-top: 15px;
+      font-size: 13px;
+    }
+
+    /* Judul custom untuk masing-masing */
+    .install-title {
+      color: #00e0ff;
+    }
+
+    .dlc-title {
+      color: #00d6c2;
+    }
+
+    .trouble-title {
+      color: #00bfff;
+    }
+
+    a {
+      color: #00aaff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<div class="tutorial-section">
+  <!-- Card 1 -->
+  <div class="tutorial-card">
+    <h3 class="install-title">⬇ Basic Installation</h3>
+    <iframe src="https://www.youtube.com/embed/EPKRk-miRhQ" frameborder="0" allowfullscreen></iframe>
+    <ol>
+      <li>Instal Steam Tool yang sudah kalian download dan buka steam tool</li>
+      <li>Ekstrak file game yang telah kalian unduh</li>
+      <li>block/Pilih file hasil ekstraksi game tersebut</li>
+      <li>Drag file yang dipilih ke logo steam tool yang mengambang di layar</li>
+      <li>Restart Steam</li>
+    </ol>
+    <div class="note"><strong>NB:</strong> Untuk lebih jelasnya tonton video tutorial di atas.</div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="tutorial-card">
+    <h3 class="dlc-title">🔑 Cara Memasukkan DLC ke dalam game</h3>
+    <iframe src="https://www.youtube.com/embed/KDbiDpxzC8k" frameborder="0" allowfullscreen></iframe>
+    <ol>
+      <li>Buka aplikasi Steam Tool sampai muncul floating windows steam tool</li>
+      <li>Kunjungi <a href="https://steamdb.info" target="_blank">steamdb.info</a></li>
+      <li>Ketik nama game di kolom pencarian</li>
+      <li>Cari bagian DLC dan klik</li>
+      <li>copy semua tilisan di kolom "downloadasable content"</li>
+      <li>Drag ke Steam Tool </li>
+      <li>Restart Steam</li>
+    </ol>
+    <div class="note"><strong>NB:</strong> Untuk lebih jelasnya tonton video tutorial di atas.</div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="tutorial-card">
+    <h3 class="trouble-title">🛠️ Troubleshooting</h3>
+    <iframe src="https://www.youtube.com/embed/7ESy9vpgFg8" frameborder="0" allowfullscreen></iframe>
+    <ul>
+      <li>Buka File Explorer</li>
+      <li>Buka C:\Program file(x86)Steam\config\depotcache</li>
+      <li>kemudian hapus semua file di dalamya</li>
+      <li>Buka C:\Program file(x86)Steam\config\stplug-in</li>
+      <li>kemudian hapus semua file di dalamya</li>
+      <li>Restart Steam</li>
+      <li>Lakukan Instalasi ulang game awal seperti panduan pertama (Basic Installation)</li>
+    </ul>
+    <div class="note"><strong>NB:</strong> Untuk lebih jelasnya tonton video tutorial di atas.</div>
+  </div>
+</div>
+<meta charset="UTF-8">
+  <title>Contact Us</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f0f1a;
+      color: #fff;
+    }
+
+    .contact-section {
+      text-align: center;
+      padding: 50px 20px;
+      border-top: 3px solid #4b0082;
+    }
+
+    .contact-section h2 {
+      font-size: 28px;
+      margin-bottom: 30px;
+      background: linear-gradient(to right, #5bdcff, #a97cff);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    .social-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .social-buttons a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 20px;
+      border-radius: 30px;
+      border: 1px solid;
+      font-size: 15px;
+      text-decoration: none;
+      transition: 0.3s ease;
+    }
+
+    .wa { border-color: #25D366; color: #25D366; }
+    .ig { border-color: #E1306C; color: #E1306C; }
+    .tt { border-color: #00F2EA; color: #00F2EA; }
+    .sup { border-color: #FFB000; background: #FFB000; color: #000; }
+
+    .social-buttons a:hover {
+      opacity: 0.8;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+<!-- Contact Section -->
+<div class="contact-section">
+  <h2>NEED HELP? CONTACT US</h2>
+  <div class="social-buttons">
+    <a class="wa" href="https://wa.me/6281234567890" target="_blank">🟢 WhatsApp</a>
+    <a class="ig" href="https://www.instagram.com/winngames/?igsh=MXVwaHhpejU5OXY2cw%3D%3D" target="_blank">📷 Instagram</a>
+    <a class="tt" href="https://tiktok.com/@yourpage" target="_blank">🎵 TikTok</a>
+    <a class="sup" href="https://yourdonationpage.com" target="_blank">🎁 Support Us</a>
+  </div>
+</div>
+
+</body>
+</html>
